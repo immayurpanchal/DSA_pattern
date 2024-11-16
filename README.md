@@ -121,3 +121,28 @@ This project was created using `bun init` in bun v1.1.34. [Bun](https://bun.sh) 
 * * * *
 
 ```
+
+### 011
+```javascript
+
+
+ **
+*  *
+*  *
+****
+*  *
+*  *
+*  *
+
+```
+
+### 012
+```javascript
+
+    * 
+   * * 
+  *   *
+ *     * 
+*********
+
+```
