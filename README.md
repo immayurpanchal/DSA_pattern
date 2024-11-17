@@ -263,3 +263,63 @@ This project was created using `bun init` in bun v1.1.34. [Bun](https://bun.sh) 
    1 4 6 4 1
 
 ```
+
+### 023
+```javascript
+
+A
+A B 
+A B C 
+A B C D 
+
+```
+
+### 024
+```javascript
+
+ABCDEF
+ ABCDE
+  ABCD
+   ABC
+    AB
+     A
+
+```
+
+### 025
+```javascript
+
+ABCDE
+ABCD
+ABC
+AB
+A
+AB
+ABC
+ABCD
+ABCDE
+
+```
+
+### 026
+```javascript
+
+   A
+  ABC
+ ABCDE
+ABCDEFG
+
+```
+
+### 027
+```javascript
+
+   A
+  ABC
+ ABCDE
+ABCDEFG
+ ABCDE
+  ABC
+   A
+
+```
