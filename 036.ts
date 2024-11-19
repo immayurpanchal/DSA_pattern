@@ -25,22 +25,33 @@ const main = async () => {
     let str = "";
 
     // print values 
-    for(let col = 0; col < n - row; col++){ // 5 - 0 = 5 
+    for (let col = 0; col < n - row; col++) { // 5 - 0 = 5 
       str += "*";
     }
 
     // print spaces 
-    for(let col = 0; col < row * 2 - 1; col++){ 
+    for (let col = 0; col < row * 2 - 1; col++) {
       str += " ";
     }
 
     // print values
-    for(let col = 0; col < n - row ; col++){ 
-        str += "*";
+    for (let col = 0; col < n - row; col++) {
+      str += "*";
     }
 
     console.log(str)
   }
 }
 
-main();
+const main2 = async () => {
+  const n = +await getUserInput("Enter the number: ");
+
+  console.log("*".repeat(n * 2 - 1));
+
+  for (let i = 1; i < n; i++) {
+    let row = "*".repeat(n - i) + " ".repeat(i * 2 - 1) + "*".repeat(n - i);
+    console.log(row);
+  }
+}
+
+main2();
